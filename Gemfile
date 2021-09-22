@@ -3,8 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.2"
 
-# Use local checkout of Rails
-gem "rails", path: "/Users/ethan/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bundler/gems/rails-bac0038e20a7"
+gem 'rails', github: 'rails/rails', branch: 'main'
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"

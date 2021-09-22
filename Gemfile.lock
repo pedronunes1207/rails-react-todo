@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/ethan/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bundler/gems/rails-bac0038e20a7
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 860f59b5e1369a8062b15a6fd537bbec6156320c
+  branch: main
   specs:
     actioncable (7.0.0.alpha2)
       actionpack (= 7.0.0.alpha2)
@@ -52,7 +54,7 @@ PATH
       activejob (= 7.0.0.alpha2)
       activerecord (= 7.0.0.alpha2)
       activesupport (= 7.0.0.alpha2)
-      marcel (~> 1.0.0)
+      marcel (~> 1.0)
       mini_mime (>= 1.1.0)
     activesupport (7.0.0.alpha2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -124,7 +126,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.1)
+    marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.1)
     minitest (5.14.4)
